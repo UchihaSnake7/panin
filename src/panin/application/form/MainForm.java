@@ -7,7 +7,7 @@ import com.formdev.flatlaf.util.UIScale;
 import panin.application.Application;
 import panin.application.form.insumos.FormCrearInsumo;
 import panin.application.form.other.FormDashboard;
-import panin.application.form.other.FormIngresarInsumo;
+import panin.application.form.other.FormIngresarInsumoold;
 import panin.application.form.other.FormRead;
 import panin.menu.Menu;
 import panin.menu.MenuAction;
@@ -24,6 +24,7 @@ import javax.swing.JButton;
 import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import panin.application.form.other.FormIngresarInsumo;
 
 /**
  *
