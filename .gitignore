@@ -28,3 +28,6 @@ replay_pid*
 *.classpath
 =======
 >>>>>>> 3687715d4115e9984dd1648e51c6d2c56c4a85cc
+/nbproject/private/
+/build/
+/dist/
