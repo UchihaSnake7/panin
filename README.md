@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Java Dashboard Light and Dark mode
 This dashboard build by using java swing with flatlaf look and feel
 
@@ -68,3 +69,7 @@ menu.addMenuEvent(new MenuEvent() {
 - [27-06-2023] Update add menu font properties for menu item and menu label `Menu.item.font` and `Menu.label.font`
 - [27-06-2023] Update menu support right to left by enable this [code](https://github.com/DJ-Raven/flatlaf-dashboard/blob/70d08d66fa48f72e55ae873cbc2968e4ac151b57/src/raven/application/Application.java#L87C13-L87C13)
 - [03-10-2023] Update add properties `AccentControl.show` to show and hide accent color toolbar
+=======
+# panin
+Repositorio para archivos de panin
+>>>>>>> 3687715d4115e9984dd1648e51c6d2c56c4a85cc
