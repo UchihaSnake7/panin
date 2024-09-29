@@ -16,7 +16,10 @@ public class FormIngresarInsumo extends javax.swing.JPanel {
      * Creates new form FormIngresarI
      */
     public FormIngresarInsumo() {
+        
         initComponents();
+        searchHeader21.setBackground(getBackground());
+   
 //		lb.putClientProperty(FlatClientProperties.STYLE, "" + "font:$h1.font");
     }
 
@@ -29,20 +32,28 @@ public class FormIngresarInsumo extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        searchHeader22 = new panin.application.utilities.SearchHeader2();
+        searchHeader21 = new panin.application.utilities.SearchHeader2();
+        formMostrarInsumos1 = new panin.application.form.insumos.FormMostrarInsumos();
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(searchHeader22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 471, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(formMostrarInsumos1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(searchHeader21, javax.swing.GroupLayout.DEFAULT_SIZE, 905, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addComponent(searchHeader22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(240, Short.MAX_VALUE))
+                .addGap(22, 22, 22)
+                .addComponent(searchHeader21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(formMostrarInsumos1, javax.swing.GroupLayout.DEFAULT_SIZE, 553, Short.MAX_VALUE)
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -52,6 +63,7 @@ public class FormIngresarInsumo extends javax.swing.JPanel {
 	// End of variables declaration                   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private panin.application.utilities.SearchHeader2 searchHeader22;
+    private panin.application.form.insumos.FormMostrarInsumos formMostrarInsumos1;
+    private panin.application.utilities.SearchHeader2 searchHeader21;
     // End of variables declaration//GEN-END:variables
 }
